@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+<script type="text/javascript">
+function(){
+$('#youtube').click(function () {
+	if ($('#youtubembed').css('display') == 'none') {
+	$('#youtubembed').css('display', 'block');
+	} else{
+	$('#youtubembed').css('display', 'none');
+	}
+};
+};
+</script>
+<script type='text/javascript'>
+	document.querySelector("#picasa").onclick = function()
+{
+	
+};
+</script>
+
+ <style type="text/css">
+ #youtubembed{
+ display: none;
+ border: 3px solid red;
+ }
+ #34{
+ border: 1em solid red;
+ height: 5em;
+ width: 5em;
+ color: red;
+ }
+ </style>
+</head>
+<body>
+	<button type="button" id="picasa">photo</button>
+	<button type="button" id="youtube">video</button>
+	<div id='youtubembed'><iframe width="560" height="560" src="https://www.youtube.com/upload" frameborder="0" ></iframe></div>
+	<div id='34'>test</div>
+</body>
