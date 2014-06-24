@@ -83,6 +83,7 @@
                 var element3 = document.createElement("input");
                 element3.type = "button";
                 element3.id = rowID;
+                element3.setAttribute("value",'View');
                 element3.setAttribute("onclick","viewSelectedRow(document.getElementById('text'+this.id))");
                 element3.className = "viewButton";
                 cell3.appendChild(element3);
@@ -91,7 +92,7 @@
                 var cell4 = row.insertCell(3);
                 var element4 = document.createElement("input");
                 element4.type = "button";
-              
+                element4.setAttribute("value",'Delete');
                 element4.setAttribute("onclick","deleteSelectedRow(this)");
                 element4.className = "deleteButton";
                 cell4.appendChild(element4);

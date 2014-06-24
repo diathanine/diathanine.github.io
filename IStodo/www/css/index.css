@@ -141,15 +141,16 @@ background-color:grey;
 
 .viewButton { 
 background-color: skyblue;
+color: white;
 border-radius: 12px;
-content: "view";
 width:64px;
 height:32px;
 }
 
 .deleteButton { 
-background-color:Transparent;
-background-image:url('../img/button_delete.png');
+background-color: skyblue;
+color: white;
+border-radius: 12px;
 width:64px;
 height:32px;
 }
