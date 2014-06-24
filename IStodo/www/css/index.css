@@ -114,6 +114,7 @@ position:absolute;
 left:0px
 text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 width:50%;
+font-size:5em;
 }
 
 .removeTasks {
@@ -126,7 +127,7 @@ position:absolute;
 right:0px;
 text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 width:50%;
-font-size:18;
+font-size:5em;
 }
 
 .checkbox {
