@@ -118,7 +118,7 @@ width:50%;
 
 .removeTasks {
 color: white;
-background-color: skyblue;
+background-color: #9f000f;
 border-color: Transparent;
 float:right;
 margin-right:0;
@@ -126,29 +126,22 @@ position:absolute;
 right:0px;
 text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 width:50%;
+font-size:18;
 }
 
 .checkbox {
-background-color:Transparent;
-background-image:url('../img/check_box.png');
+background-color:lightgrey;
 width:38px;
 height:32px;
 }
 
 .textbox {
-background-color:grey;
-}
-
-.viewButton { 
-background-color: skyblue;
-color: white;
-border-radius: 12px;
-width:64px;
-height:32px;
+background-color:white;
+color: black;
 }
 
 .deleteButton { 
-background-color: skyblue;
+background-color: #9f000f;
 color: white;
 border-radius: 12px;
 width:64px;
