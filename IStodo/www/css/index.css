@@ -106,7 +106,6 @@ animation:fade 3000ms infinite;
 
 .addToDo {
 color: white;
-border-radius: 12px;
 background-color: skyblue;
 border-color: Transparent;
 float:left;
@@ -114,12 +113,11 @@ margin-left:0;
 position:absolute;
 left:0px
 text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-width:100%;
+width:50%;
 }
 
 .removeTasks {
 color: white;
-border-radius: 12px;
 background-color: skyblue;
 border-color: Transparent;
 float:right;
@@ -127,6 +125,7 @@ margin-right:0;
 position:absolute;
 right:0px;
 text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+width:50%;
 }
 
 .checkbox {
